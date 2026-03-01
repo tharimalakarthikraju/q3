@@ -4,7 +4,6 @@ services:
     env: python
     region: oregon
     plan: free
-    pythonVersion: 3.11.0
     buildCommand: |
       apt-get update && apt-get install -y ffmpeg
       pip install -r requirements.txt
