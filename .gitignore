@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.env
+ngrok.exe
+cloudflared.exe
+*.log
